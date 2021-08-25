@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n @cochinmovies",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 JOIN OUR OTT UPDATES CHANNEL 🔰', url="https://t.me/cochinmoviesottup"
                                 )
                         ]
                     ]
